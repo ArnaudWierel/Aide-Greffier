@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Audience Greffier</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('us-flag.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    .seal {
+      position: fixed;
+      width: 180px;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .seal.dojo {
+      top: 20px;
+      left: 20px;
+    }
+
+    .seal.andreas {
+      bottom: 20px;
+      right: 20px;
+    }
+
+    .seal.gates {
+      top: 20px;
+      right: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <img src="department-of-justice.png" alt="Seal DOJ" class="seal dojo" />
+  <img src="san-andreas-judiciary.png" alt="Seal Andreas" class="seal andreas" />
+  <img src="seal.png" alt="Greffier Gates" class="seal gates" />
+  <div id="root"></div>
+</body>
+
+</html>

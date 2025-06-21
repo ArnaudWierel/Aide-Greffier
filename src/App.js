@@ -6,7 +6,7 @@ export default function App() {
   const [activeTab, setActiveTab] = useState("audience");
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen">
       <div className="flex justify-center p-4 space-x-4 bg-white shadow-md">
         <button
           onClick={() => setActiveTab("audience")}
